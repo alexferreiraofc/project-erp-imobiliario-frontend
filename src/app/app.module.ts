@@ -21,6 +21,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
+import {MatCardModule} from '@angular/material/card';
 
 // componentes do projeto
 import { NavComponent } from './components/nav/nav.component';
@@ -53,6 +54,7 @@ import { HomeComponent } from './components/home/home.component';
     MatCheckboxModule,
     MatFormFieldModule,
     MatInputModule,
+    MatCardModule,
     
   
   ],
