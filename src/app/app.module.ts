@@ -36,10 +36,13 @@ import { HomeComponent } from './components/home/home.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    
+    
     // trabalhar com formularios
     ReactiveFormsModule,
-    // requisicoes HTTP
     FormsModule,
+    // requisicoes HTTP
+    HttpClientModule,
 
     // Imports angular material
     MatButtonModule,
