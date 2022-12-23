@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { NgxDatatableModule } from '@swimlane/ngx-datatable';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -22,6 +23,8 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {MatCardModule} from '@angular/material/card';
+import {MatTableModule} from '@angular/material/table';
+import {MatPaginatorModule} from '@angular/material/paginator';
 
 
 // componentes do projeto
@@ -40,12 +43,13 @@ import { ImoveisListComponent } from './components/imoveis/imoveis-list/imoveis-
     HeaderComponent,
     VendasListComponent,
     PessoasListComponent,
-    ImoveisListComponent
+    ImoveisListComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    NgxDatatableModule,
     
     
     // trabalhar com formularios
@@ -64,6 +68,10 @@ import { ImoveisListComponent } from './components/imoveis/imoveis-list/imoveis-
     MatFormFieldModule,
     MatInputModule,
     MatCardModule,
+    MatTableModule,
+    MatPaginatorModule,
+
+    
     
   
   ],

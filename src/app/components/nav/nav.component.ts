@@ -11,7 +11,9 @@ export class NavComponent implements OnInit{
   constructor(private router: Router) { }
 
   ngOnInit(): void {
-    this.router.navigate(['/home'])
+    // ESSE AQUI É ONDE VAI INICIAR APOS ATUALIZAR O SITE
+    //HOME POR PADRAO
+    this.router.navigate(['/vendas'])
     
   }
 
