@@ -3,10 +3,10 @@
     <mat-label>Filter</mat-label>
     <input matInput (keyup)="applyFilter($event)" placeholder="Ex. Codigo do imovel ou nome do proprietario" #input>
   </mat-form-field>
-  
+
   <div class="mat-elevation-z8">
     <table mat-table [dataSource]="dataSource" matSort>
-  
+
       <!-- ID Column -->
       <ng-container matColumnDef="id">
         <th mat-header-cell *matHeaderCellDef mat-sort-header> Codigo </th>
