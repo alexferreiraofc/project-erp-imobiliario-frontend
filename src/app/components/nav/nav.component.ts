@@ -13,7 +13,7 @@ export class NavComponent implements OnInit{
   ngOnInit(): void {
     // ESSE AQUI É ONDE VAI INICIAR APOS ATUALIZAR O SITE
     //HOME POR PADRAO
-    this.router.navigate(['/vendas'])
+    this.router.navigate(['/login'])
     
   }
 
