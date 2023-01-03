@@ -35,6 +35,7 @@ import { VendasListComponent } from './components/vendas/vendas-list/vendas-list
 import { PessoasListComponent } from './components/pessoas/pessoas-list/pessoas-list.component';
 import { ImoveisListComponent } from './components/imoveis/imoveis-list/imoveis-list.component';
 import { LoginComponent } from './components/login/login.component';
+import { ToastrModule } from 'ngx-toastr';
 
 @NgModule({
   declarations: [
@@ -72,6 +73,11 @@ import { LoginComponent } from './components/login/login.component';
     MatCardModule,
     MatTableModule,
     MatPaginatorModule,
+    ToastrModule.forRoot({
+      timeOut: 4000,
+      closeButton: true,
+      progressBar: true
+    })
 
     
     
