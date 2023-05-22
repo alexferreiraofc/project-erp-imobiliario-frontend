@@ -1,5 +1,10 @@
 # SistemaSparky
 
+<img src="./src/assets/img/readmeimg/0-login-popup_event.png" width="300">
+<img src="./src/assets/img/readmeimg/1-home.png" width="300">
+<img src="./src/assets/img/readmeimg/2-vendas-progress.png" width="300">
+<img src="./src/assets/img/readmeimg/3-venda-telegram.jpeg" width="300">
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
 
 ## Development server
