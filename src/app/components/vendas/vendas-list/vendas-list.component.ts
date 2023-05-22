@@ -18,6 +18,34 @@ export class VendasListComponent implements OnInit {
       cpf: "0675430901",
       endereco: "Rua antonio luiz Baldino",
     },
+    {
+      id: 2,
+      name: "Jose",
+      progress: "50",
+      cpf: "1220000000",
+      endereco: "Rua antonio luiz Baldino",
+    },
+    {
+      id: 3,
+      name: "Maria",
+      progress: "90",
+      cpf: "1235430901",
+      endereco: "Rua antonio luiz Baldino",
+    },
+    {
+      id: 4,
+      name: "Myers",
+      progress: "15",
+      cpf: "5553000000",
+      endereco: "Rua antonio luiz Baldino",
+    },
+    {
+      id: 5,
+      name: "Vorhees",
+      progress: "15",
+      cpf: "7773000000",
+      endereco: "Rua antonio luiz Baldino",
+    },
   ];
 
   displayedColumns: string[] = ["id", "name", "progress", "cpf", "endereco"];
