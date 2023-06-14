@@ -1,4 +1,4 @@
-import { NgModule } from "@angular/core";
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
 import { NgxDatatableModule } from "@swimlane/ngx-datatable";
 
@@ -78,5 +78,6 @@ import { VendasListComponent } from "./components/vendas/vendas-list/vendas-list
   ],
   providers: [],
   bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class AppModule {}
