@@ -1,5 +1,6 @@
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
+import { ChavesComponent } from "./components/chaves/chaves.component";
 import { HomeComponent } from "./components/home/home.component";
 import { ImoveisListComponent } from "./components/imoveis/imoveis-list/imoveis-list.component";
 import { LoginComponent } from "./components/login/login.component";
@@ -16,6 +17,7 @@ const routes: Routes = [
       { path: "home", component: HomeComponent },
       { path: "vendas", component: VendasListComponent },
       { path: "pessoas", component: PessoasListComponent },
+      { path: "chaves", component: ChavesComponent },
       { path: "imoveis", component: ImoveisListComponent },
     ],
   },
