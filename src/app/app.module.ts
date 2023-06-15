@@ -34,6 +34,7 @@ import { LoginComponent } from "./components/login/login.component";
 import { NavComponent } from "./components/nav/nav.component";
 import { PessoasListComponent } from "./components/pessoas/pessoas-list/pessoas-list.component";
 import { VendasListComponent } from "./components/vendas/vendas-list/vendas-list.component";
+import { ChavesComponent } from './components/chaves/chaves.component';
 
 @NgModule({
   declarations: [
@@ -45,6 +46,7 @@ import { VendasListComponent } from "./components/vendas/vendas-list/vendas-list
     PessoasListComponent,
     ImoveisListComponent,
     LoginComponent,
+    ChavesComponent,
   ],
   imports: [
     BrowserModule,
