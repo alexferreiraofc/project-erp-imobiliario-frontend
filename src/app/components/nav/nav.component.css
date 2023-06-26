@@ -22,3 +22,12 @@ img {
 .sidenav i {
   margin-right: 0.6rem;
 }
+.menu {
+  margin-left: 5px;
+  top: -90px;
+  /*
+   Tamanho do botão do menu. Por padrão estava sem Width e Height
+  */
+  width: 65px;
+  height: 65px;
+}

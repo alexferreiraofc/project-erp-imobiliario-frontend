@@ -1,8 +1,7 @@
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
-import { NgxDatatableModule } from "@swimlane/ngx-datatable";
-
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { NgxDatatableModule } from "@swimlane/ngx-datatable";
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 
@@ -27,6 +26,7 @@ import { MatToolbarModule } from "@angular/material/toolbar";
 
 // componentes do projeto
 import { ToastrModule } from "ngx-toastr";
+import { ChavesComponent } from "./components/chaves/chaves.component";
 import { HeaderComponent } from "./components/header/header.component";
 import { HomeComponent } from "./components/home/home.component";
 import { ImoveisListComponent } from "./components/imoveis/imoveis-list/imoveis-list.component";
@@ -34,7 +34,8 @@ import { LoginComponent } from "./components/login/login.component";
 import { NavComponent } from "./components/nav/nav.component";
 import { PessoasListComponent } from "./components/pessoas/pessoas-list/pessoas-list.component";
 import { VendasListComponent } from "./components/vendas/vendas-list/vendas-list.component";
-import { ChavesComponent } from './components/chaves/chaves.component';
+
+// calendar
 
 @NgModule({
   declarations: [
@@ -50,6 +51,7 @@ import { ChavesComponent } from './components/chaves/chaves.component';
   ],
   imports: [
     BrowserModule,
+    MatCardModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     NgxDatatableModule,
@@ -69,9 +71,10 @@ import { ChavesComponent } from './components/chaves/chaves.component';
     MatCheckboxModule,
     MatFormFieldModule,
     MatInputModule,
-    MatCardModule,
     MatTableModule,
     MatPaginatorModule,
+    // calendar
+
     ToastrModule.forRoot({
       timeOut: 4000,
       closeButton: true,

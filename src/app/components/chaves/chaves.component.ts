@@ -1,10 +1,8 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-chaves',
-  templateUrl: './chaves.component.html',
-  styleUrls: ['./chaves.component.css']
+  selector: "app-chaves",
+  templateUrl: "./chaves.component.html",
+  styleUrls: ["./chaves.component.css"],
 })
-export class ChavesComponent {
-
-}
+export class ChavesComponent {}
